@@ -23,19 +23,19 @@ README.md
 ## Functions
 
 Server side (server.js)
-    Setup express server, body parser and cors.
-    sendData()
-        Setup a route to send all the project data.
-    addData()
-        Setup a route to receive new data entry and store it in an array.
+- Setup express server, body parser and cors.
+- sendData()
+    Setup a route to send all the project data.
+- addData()
+    Setup a route to receive new data entry and store it in an array.
 
 Client side (app.js)
 - performAction()
-        Runs the rest of the funcions in specific order after the submit button is clicked.
+    Runs the rest of the funcions in specific order after the submit button is clicked.
 - postApiData()
-        Fetches the weather from the Open Weather MAp API for the input zip code. 
+    Fetches the weather from the Open Weather MAp API for the input zip code. 
 - postData()
-        Sends the data from the API with the text from the website textbox to the server.
+    Sends the data from the API with the text from the website textbox to the server.
 - updatePage()
-        Fetches the latest entry from the server and updates the DOM with it.
+    Fetches the latest entry from the server and updates the DOM with it.
 
