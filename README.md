@@ -30,12 +30,12 @@ Server side (server.js)
         Setup a route to receive new data entry and store it in an array.
 
 Client side (app.js)
-    performAction()
+- performAction()
         Runs the rest of the funcions in specific order after the submit button is clicked.
-    postApiData()
+- postApiData()
         Fetches the weather from the Open Weather MAp API for the input zip code. 
-    postData()
+- postData()
         Sends the data from the API with the text from the website textbox to the server.
-    updatePage()
+- updatePage()
         Fetches the latest entry from the server and updates the DOM with it.
 
